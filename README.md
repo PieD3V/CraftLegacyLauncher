@@ -10,10 +10,11 @@ The **Launcher** makes it easier to start the game, manage settings, and connect
 
 ## Installation
 
-1. Download all files in this github repo as a zip. 
-2. Run the file main.py and press play!
-3. It will download the latest EXE build from **SmartCMD's** github repo.
-4. When its done, enjoy!
+1. Download files as a .ZIP
+2. Extract .ZIP
+3. Run the file main.py and press play!
+4. It will download the latest EXE build from **SmartCMD's** github repo.
+5. When its done, enjoy!
 
    **Help**
 6. If it wont launch add path to minecraft_install folder that will be made if you download the latest version in the launcher.
