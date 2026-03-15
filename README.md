@@ -10,7 +10,7 @@ The **Launcher** makes it easier to start the game, manage settings, and connect
 
 ## Installation
 
-1. Download files as a .ZIP
+1. Download(https://github.com/PieD3V/CraftLegacyLauncher/releases/tag/Debug) files as a .ZIP
 2. Extract .ZIP
 3. Run the file main.py and press play!
 4. It will download the latest EXE build from **SmartCMD's** github repo.
