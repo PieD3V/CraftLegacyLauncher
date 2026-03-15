@@ -10,8 +10,8 @@ The **Launcher** makes it easier to start the game, manage settings, and connect
 
 ## Installation
 
-1. Download the latest release of the **Launcher**. 
-2. Run the file and press play!
+1. Download all files in this github repo as a zip. 
+2. Run the file main.py and press play!
 3. It will download the latest EXE build from **SmartCMD's** github repo.
 4. When its done, enjoy!
 
