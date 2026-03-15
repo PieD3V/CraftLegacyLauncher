@@ -1,5 +1,5 @@
 **CraftLegacyLauncher** is a simple launcher for the legacy console-style block game port created by **SmartCMD**.
-**CraftLegacyLauncher** makes it easier to start the game, manage settings, and connect to LAN without needing to type long command to CMD.
+**CraftLegacyLauncher** makes it easier to start the game, manage settings, and connect to LAN without needing to type long commands to CMD.
 
 ## Features
 
@@ -10,7 +10,7 @@
 
 ## Installation
 
-1. Download the latest release of the **CraftLegacyLauncher**. 
+1. Download the latest release of the **Launcher**. 
 2. Run the file and press play!
 3. It will download the latest EXE build from **SmartCMD's** github repo.
 4. When its done, enjoy!
