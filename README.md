@@ -18,6 +18,7 @@ The **Launcher** makes it easier to start the game, manage settings, and connect
 ## Requirements
 
 - Windows 10-11
+- **Radmin** VPN for LAN between Computers.
 
 ## Credits
 -**PieDEV** > Making the CraftLegacyLauncher!
