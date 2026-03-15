@@ -22,4 +22,4 @@
 ## Credits
 -**PieDEV** – Making the CraftLegacyLauncher!
 -**FlameTED** – Making the Script interact with github/backend support!
--**smartCMD** – Making the original console edition port.
+ -**smartCMD** – Making the original console edition port.
