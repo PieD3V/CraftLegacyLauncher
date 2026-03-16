@@ -479,7 +479,7 @@ class IndevGUI:
         d.resizable(False, False)
         d.configure(bg=INDEV_DIRT_BROWN)
         d.grab_set()
-        tk.Label(d, text="Welcome to the Minecraft LCE Launcher", bg=INDEV_DIRT_BROWN,
+        tk.Label(d, text="Welcome!", bg=INDEV_DIRT_BROWN,
                  fg=INDEV_TEXT, font=self.fonts['title']).pack(anchor='w', padx=30, pady=(30, 10))
         tk.Label(d, text="What would you like to do?", bg=INDEV_DIRT_BROWN,
                  fg=INDEV_TEXT, font=self.fonts['medium']).pack(anchor='w', padx=30, pady=(0, 30))
