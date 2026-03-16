@@ -26,6 +26,6 @@ The **Launcher** makes it easier to start the game, manage settings, and connect
 - **Radmin** VPN for LAN between Computers. (if you want...)
 
 ## Credits
--**PieDEV** > Making the CraftLegacyLauncher!
--**FlameTED** > Making the Script interact with github/backend support!
- -**smartCMD** > Making the original console edition port.
+**PieDEV** > Making the CraftLegacyLauncher!
+**FlameTED** > Making the Script interact with github/backend support!
+ **smartCMD** > Making the original console edition port.
