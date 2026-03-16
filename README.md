@@ -6,7 +6,7 @@ The **Launcher** makes it easier to start the game, manage settings, and connect
 - A simple UI
 - LAN input
 - Username Input
-- Lightweight python file
+- just a python file
 
 ## Installation
 
