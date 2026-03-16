@@ -16,6 +16,13 @@ import time
 import psutil
 import random
 from PIL import Image, ImageTk
+import ctypes
+from pathlib import Path
+
+def load_font(font_path):
+    FR_PRIVATE = 0x10
+    if os.name == "nt":
+        ctypes.windll.gdi32.AddFontResourceExW(str(font_path), FR_PRIVATE, 0)
 
 try:
     from send2trash import send2trash
@@ -267,35 +274,29 @@ class IndevGUI:
         self.launcher = MinecraftLauncher()
         self.launcher.current_version = self.launcher.get_current_version()
         self.total_playtime = self.launcher.load_playtime()
-        self.lan_enabled = False
-        self.lan_username = ""
-        self.lan_ip = ""
-
-        self.install_thread = None
-        self.bg_image_ref = None
 
         self.load_custom_font()
         self.create_ui()
         self.check_first_boot()
 
     def load_custom_font(self):
-        
-        available = tkfont.families()
-        target_font = "Arial"
-        for f in ["Consolas", "Lucida Console", "Courier New", "Courier"]:
-            if f in available:
-                target_font = f
-                break
+     font_path = Path.cwd() / "Minecraftia-Regular.ttf"
 
-        self.fonts = {
-            'normal': tkfont.Font(family=target_font, size=10),
-            'bold': tkfont.Font(family=target_font, size=10, weight='bold'),
-            'medium': tkfont.Font(family=target_font, size=12, weight='bold'),
-            'large_bold': tkfont.Font(family=target_font, size=16, weight='bold'),
-            'title': tkfont.Font(family=target_font, size=28, weight='bold'),
-            'title_shadow': tkfont.Font(family=target_font, size=28, weight='bold'),
-            'small': tkfont.Font(family=target_font, size=9),
-        }
+     if font_path.exists():
+        load_font(font_path)
+        target_font = "Minecraftia"
+     else:
+        target_font = "Arial"
+
+     self.fonts = {
+        "normal": tkfont.Font(family=target_font, size=10),
+        "bold": tkfont.Font(family=target_font, size=10, weight="bold"),
+        "medium": tkfont.Font(family=target_font, size=12),
+        "large_bold": tkfont.Font(family=target_font, size=18, weight="bold"),
+        "title": tkfont.Font(family=target_font, size=28, weight="bold"),
+        "title_shadow": tkfont.Font(family=target_font, size=28, weight="bold"),
+        "small": tkfont.Font(family=target_font, size=9),
+    }
 
     def apply_background(self, parent):
         
