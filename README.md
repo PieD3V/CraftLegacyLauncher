@@ -7,6 +7,8 @@ The **Launcher** makes it easier to start the game, manage settings, and connect
 - LAN input
 - Username Input
 - just a python file
+- *added saving of username and lan ip
+- *added first time boot menu
 
 ## Installation
 
